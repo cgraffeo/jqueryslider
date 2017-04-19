@@ -1,0 +1,83 @@
+<!-- Display portfolio projects in slideshow  -->
+<!-- Arrange projects into cards -->
+<!-- Make projects highlight based on buttons clicked -->
+<!-- Display or hide navigation with a button -->
+<!-- Display modal windows to describe project -->
+<!-- Revise file folder structure -->
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" type= "text/css" href="styles.css">
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+	</head>
+		<body>
+		<div class="nav">
+
+			<ul>
+				<li class="nav-logo"><p>Autif's Portfolio</p></li>
+				<a href="#projects"><li class="nav-projects"><p>Projects</p></li></a>
+				<a href="#about"><li><p>About Me</p></li></a>
+				<a href="#contact"><li><p>Contact</p></li></a>
+			</ul>
+		</div>
+		<div class="jumbotron">
+		</div>
+		<a name="projects"></a>
+		<div class="slideshow">
+		<div class="fotorama" data-nav="thumbs">
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<div data-img="http://placehold.it/350x150"><a target="blank" href="http://google.com/"></a></div>
+			<!-- <div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div> -->
+		</div>
+		</div>
+		<div class="col-md-6">
+		<div class="about">
+			<a name="about"><h1>About Me</h1></a>
+			<img src=img/autif_beach.jpg>
+			<div class="content">
+				<p>Most of my studying has been in <a href="https://www.codecademy.com">Codecademy</a> and <a href="https://www.teamtreehouse.com">Team Treehouse</a>. I've completed the Front End track. Although Front End has been my focus, I want to continue learning as much as I can. I have mentors and I also learn other languages while waiting for answers from forums.</p>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-6">
+			<div class="upcoming">
+				<h1>Upcoming Updates</h1>
+					<ol>
+						<li>More JavaScript and JQuery projects as learned from <a href="https://goo.gl/MbxFoI">https://goo.gl/MbxFoI</a> and <a href="https://goo.gl/8GFoAy">https://goo.gl/8GFoAy</a> on Udemy.</li>
+						<li>Revising video player project (project 4)</li>
+					</ol>
+			</div>
+			<div class="contact">
+				<a name="contact"><h1>Contact Me</h1></a>
+				<a class="mail" href="mailto:kautif@gmail.com">kautif@gmail.com</a>
+				<p>(949) 690 - 0046</p>
+				<div class="social">
+					<a href="https://github.com/kautif"><img src=img/github-icon.png></a>
+					<a href="https://www.facebook.com/autif.kamal"><img src=img/facebook.png></a>
+				</div>
+			</div>
+
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		</body>
+	</html>
